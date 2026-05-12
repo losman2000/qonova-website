@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "Qonova static website",
   "scripts": {
-    "start": "serve . -p ${PORT:-3000}",
-    "dev": "serve . -p 3000"
-  },
-  "dependencies": {
-    "serve": "^14.2.3"
+    "start": "npx serve . -p ${PORT:-3000}",
+    "dev": "npx serve . -p 3000"
   }
 }
